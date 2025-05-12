@@ -1,0 +1,9 @@
+<h1>Score HTML</h1>
+<%= @word %>
+<% if @english_word %>
+<p>It's an english word</p>
+<% else %>
+<p>It's not an english word</p>
+<% end %>
+
+<%= link_to "New", new_path %>
